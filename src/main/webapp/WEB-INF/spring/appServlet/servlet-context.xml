@@ -29,10 +29,9 @@
 		<beans:property name="password" value="12345"> </beans:property>
 	</beans:bean>
 	
-	<!--jdbc temple  -->
+	<!--jdbc template  -->
 	<beans:bean name = "template" class="org.springframework.jdbc.core.JdbcTemplate">
 		<beans:property name="dataSource" ref="dataSource"></beans:property>
-		
 	</beans:bean>
 	
 	
